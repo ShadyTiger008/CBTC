@@ -35,7 +35,7 @@ const HomeFooter = () => {
                 </div>
             </div>
             <div className='text-center text-gray-400 mt-8'>
-                &copy; {new Date().getFullYear()} Your Website Name. All rights reserved.
+                &copy; {new Date().getFullYear()} Shady Coder. All rights reserved.
             </div>
         </footer>
     );

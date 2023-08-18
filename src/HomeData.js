@@ -9,8 +9,8 @@ export const projectData = [
         name: 'Portfolio',
         description: 'A personal portfolio website showcasing my skills and projects.',
         imgSrc: Portfolio,
-        repoLink: "",
-        linkUrl: "",
+        repoLink: "https://github.com/ShadyTiger008/CBTC",
+        linkUrl: "/portfolio",
         style: "flex flex-col sm:flex-row"
     },
     {
@@ -19,8 +19,8 @@ export const projectData = [
         name: 'Calculator',
         description: 'A web-based calculator application for performing basic arithmetic operations.',
         imgSrc: Calculator,
-        repoLink: "",
-        linkUrl: "",
+        repoLink: "https://github.com/ShadyTiger008/CBTC",
+        linkUrl: "/portfolio",
         style: "flex flex-col sm:flex-row-reverse"
     },
     {
@@ -29,8 +29,8 @@ export const projectData = [
         name: 'Todo List',
         description: 'A simple to-do list application for managing tasks and activities.',
         imgSrc: Todolist,
-        repoLink: "",
-        linkUrl: "",
+        repoLink: "https://github.com/ShadyTiger008/CBTC",
+        linkUrl: "/portfolio",
         style: "flex flex-col sm:flex-row"
     },
 ];

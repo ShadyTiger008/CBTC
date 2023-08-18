@@ -1,6 +1,7 @@
 import React from 'react';
 import { projectData } from '../../HomeData';
 import { Link } from 'react-router-dom';
+import Homepage from '../../assets/homepage.jpg'
 
 const HeroSection = ({theme}) => {
   return (
