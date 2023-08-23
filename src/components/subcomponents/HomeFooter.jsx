@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
-const HomeFooter = () => {
+const HomeFooter = ({theme}) => {
     return (
-        <footer className='bg-gray-900 text-white py-10'>
+        <footer className={`py-10 ${theme === 'dark' ? "bg-gray-900 text-white" : ""}`}>
             <div className='container mx-auto flex flex-col md:flex-row justify-between items-center'>
                 <div className='text-center md:text-left'>
                     <h3 className='text-2xl font-semibold mb-4'>Stay Connected</h3>
